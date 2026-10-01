@@ -1,5 +1,5 @@
 <usereventscript scriptid="customscript_scg_ue_partner_discount">
-  <description></description>
+  <description>On Sales Order create/edit, sums partner discounts (custcol_partner_discount_percent x amount) per line class and adds one negative partner item line per class, with that class's date range and the billing schedule for the SO billing frequency. Logs an error and skips the SO if any discounted line has no class. Runs once per SO (custbody_scg_generated_partner_line).
   <isinactive>T</isinactive>
   <name>SCG | UE | Partner Discount</name>
   <notifyadmins>F</notifyadmins>
