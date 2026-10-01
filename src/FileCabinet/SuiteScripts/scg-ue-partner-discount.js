@@ -5,7 +5,7 @@
 define(["N/record", "N/search"], (record, search) => {
   const PARTNER_DISCOUNT_FIELD = "custcol_partner_discount_percent";
   const CHECK_GEN_LINE = "custbody_scg_generated_partner_line";
-  const PARTNER_ITEM_ID = 6443;
+  const PARTNER_ITEM_ID = 6583;
 
   /**
    * Defines the function definition that is executed before record is submitted.
